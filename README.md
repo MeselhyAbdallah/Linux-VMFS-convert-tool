@@ -6,12 +6,15 @@ VMFS Converter is a simple tool to mount VMFS devices, copy their contents to a 
 # How to Use:
 
 **1. Download the latest RPM release using wget:**
+
 wget -O vmfs-convert-1.2-1.noarch.rpm https://github.com/MeselhyAbdallah/VMFS-Mount-Tool/raw/main/vmfs-convert-1.2-1.noarch.rpm  
 
 **2. Install the RPM (RHEL/CentOS):**
+
 sudo yum install ./vmfs-mount-1.0-1.el8.noarch.rpm
 
 **3. Run the converter script:**
+
 vmfs-mount
 - Choose docker.io hub
 
