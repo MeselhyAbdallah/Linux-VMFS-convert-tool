@@ -20,11 +20,11 @@ vmfs-mount
       - Choose docker.io hub
 
 **Follow the prompts for:**
-- Choose your operation mode:
+Choose your operation mode:
 
-- **local** → Mount and copy from a physical VMFS disk using a container.
+- local → Mount and copy from a physical VMFS disk using a container.
 
-- **scp** → Copy VM folders or full datastores from ESXi via SSH/SCP.
+- scp → Copy VM folders or full datastores from ESXi via SSH/SCP.
 
 **You’ll be prompted for:**
 - Target output directory (e.g. /mnt/vmfs-out)
