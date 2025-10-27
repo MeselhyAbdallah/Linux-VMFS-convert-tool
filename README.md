@@ -12,7 +12,7 @@ wget -O vmfs-convert-1.3-1.el9.noarch.rpm https://github.com/MeselhyAbdallah/Lin
 
 **2. Install the RPM (RHEL/CentOS):**
 
-sudo yum install ./vmfs-mount-1.0-1.el8.noarch.rpm
+sudo yum install ./vmfs-convert-1.3-1.el9.noarch.rpm
 
 **3. Run the converter script:**
 
