@@ -7,7 +7,8 @@ VMFS Converter is a simple tool to mount VMFS devices, copy their contents to a 
 
 **1. Download the latest RPM release using wget:**
 
-wget -O vmfs-convert-1.2-1.noarch.rpm https://github.com/MeselhyAbdallah/VMFS-Mount-Tool/raw/main/vmfs-convert-1.2-1.noarch.rpm  
+wget -O vmfs-convert-1.3-1.el9.noarch.rpm https://github.com/MeselhyAbdallah/Linux-VMFS-convert-tool/raw/main/vmfs-convert-1.3-1.el9.noarch.rpm
+
 
 **2. Install the RPM (RHEL/CentOS):**
 
@@ -19,10 +20,15 @@ vmfs-mount
 - Choose docker.io hub
 
 **Follow the prompts for:**
-- Target directory to copy VMFS contents
-- VMFS device (PARTUUID or /dev/sdX)
-- Optionally convert `.vmdk` files to `.qcow2`
-- Optionally remove original VMFS files
+-Choose your operation mode:
+local → Mount and copy from a physical VMFS disk using a container.
+scp → Copy VM folders or full datastores from ESXi via SSH/SCP.
+
+**You’ll be prompted for:**
+- Target output directory (e.g. /mnt/vmfs-out)
+- VMFS device path or ESXi datastore
+- Optional VMDK → QCOW2 conversion
+- Optional cleanup of original files
 
 **Limitations:**
 - Requires root privileges to access VMFS devices.
