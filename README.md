@@ -1,23 +1,24 @@
-# VMFS Converter
+# **VMFS Converter**
 
-Overview:
+# Overview:
 VMFS Converter is a simple tool to mount VMFS devices, copy their contents to a host directory, and optionally convert VMDK files to QCOW2 format.
 
 # How to Use:
 
 **1. Download the latest RPM release using wget:**
 
-wget -O vmfs-convert-1.3-1.el9.noarch.rpm https://github.com/MeselhyAbdallah/Linux-VMFS-convert-tool/raw/main/vmfs-convert-1.3-1.el9.noarch.rpm
+#wget -O vmfs-convert-1.3-1.el9.noarch.rpm https://github.com/MeselhyAbdallah/Linux-VMFS-convert-tool/raw/main/vmfs-convert-1.3-1.el9.noarch.rpm
 
 
 **2. Install the RPM (RHEL/CentOS):**
 
-sudo yum install ./vmfs-convert-1.3-1.el9.noarch.rpm
+#sudo yum install ./vmfs-convert-1.3-1.el9.noarch.rpm
 
 **3. Run the converter script:**
 
-vmfs-mount
-      - Choose docker.io hub
+#vmfs-mount
+      
+- Choose docker.io hub
 
 **Follow the prompts for:**
 Choose your operation mode:
