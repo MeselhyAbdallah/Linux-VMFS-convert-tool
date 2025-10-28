@@ -16,7 +16,7 @@ VMFS Converter is a simple tool to mount VMFS devices, copy their contents to a 
 
 **3. Run the converter script:**
 
-#vmfs-mount
+#vmfs-convert
       
 - Choose docker.io hub
 
